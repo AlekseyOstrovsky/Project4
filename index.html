@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Conquest</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__container container">
+			<div class="header__title">
+				CONQUEST				
+			</div>
+			<nav class="header__menu">
+				<ul class="header__list">
+					<li class="header__item"><a href="#">Каталог</a></li>
+					<li class="header__item"><a href="#">Акции</a></li>
+					<li class="header__item"><a href="#">Доставка</a></li>
+					<li class="header__item"><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<main class="main">
+		<div class="main__container container ">
+
+			<div class="main__textblock">
+				<h2>Lorem ipsum</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repudiandae quae recusandae deleniti quod placeat fugiat voluptates minima ea temporibus, beatae aperiam est possimus optio vero sed! Asperiores, dolorum est.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita harum repellendus, facere ipsa vel perferendis qui sed quod beatae est, officiis ut tempore laborum sunt recusandae odio, repudiandae assumenda soluta.</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur nobis distinctio assumenda nam nesciunt natus quam non. Voluptates vel molestias nisi unde, sint porro at a tempore ullam maiores perferendis.</p>
+			</div>
+
+			<div class="search">
+
+				<div class="search__title">Поиск репозиториев github</div>
+
+				<div class="search__details">
+					<p>Осуществляет поиск репозиториев по введенной поиском подстроке. Выводит первые 10 результатов.</p>
+					<p>Например, <code>tetris+language:assembly&sort=stars&order=desc</code> осуществляет поиск репозиториев на ассемблере по ключевому слову "Tetris" с сортировкой по убыванию "звезд", т.е. наверху окажутся наиболее популярные.</p>
+				</div>
+
+				<form class="search__form" name="search">					
+					<div class="search__form-title">Введите поисковый запрос</div>
+					<input class="search__form-input" type="text" name="name" maxlength="255"><input class="search__form-submit" type="submit" value="Искать">
+					<div class="search__form-result"></div>					
+				</form>
+
+				<div class="search__results">
+
+				</div>
+
+			</div>
+
+		</div>	
+	</main>
+
+	<script src="./js/gitrequest.js"></script>
+
+</body>
+</html>
